@@ -1,3 +1,25 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
 
 .head {
 
@@ -10,14 +32,23 @@
 
     padding-top: 38px;
     
+    padding-left: 70px;
+    padding-right: 70px;
+
+    justify-content: space-between;
+
     
 }
 
 
 .head-content {
     display: flex;
-    padding-left: 70px;
-    padding-right: 70px;
+
+    /* max-width: 1448px; */
+
+   
+
+    
 }
 
 .top-side {
@@ -26,6 +57,10 @@
 
 .logo {
     display: flex;
+}
+
+.logo:hover {
+    cursor:pointer;
 }
 
 .logo-menu {
@@ -174,8 +209,53 @@ color: #6D6D6D;
     padding-right: 20px;
 }
 
+
+
+
 .search-zone-button-class {
     display: flex;
     width: 23.98px;
     height: 24px; 
+}
+
+.search-button {
+    display: flex;
+    width: 153.88px;
+    height: 46px;
+
+    margin-left: 30px;
+
+
+    background: #2A9D8F;
+    justify-content: space-around;
+
+    filter: drop-shadow(0px 15px 30px rgba(120, 202, 147, 0.3));
+}
+
+.search-button:hover {
+    cursor: pointer;
+}
+
+.search-button-text {
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+
+    letter-spacing: 0.005em;
+
+    color: #FFFFFF;
+
+
+}
+
+.search-button-text:hover {
+    cursor:pointer;
 }
