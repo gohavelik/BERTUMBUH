@@ -35,6 +35,8 @@ time, mark, audio, video {
     padding-left: 70px;
     padding-right: 70px;
 
+    padding-bottom: 38px;
+
     justify-content: space-between;
 
     
@@ -99,6 +101,10 @@ time, mark, audio, video {
     display: flex;
     align-items: center;
 
+}
+
+.menu-programs, .menu-arrow-button:hover {
+    cursor: pointer;
 }
 
 .menu-text {
@@ -258,4 +264,70 @@ color: #6D6D6D;
 
 .search-button-text:hover {
     cursor:pointer;
+}
+
+.top-side-border {
+    display: flex;
+    width: auto;
+    height: 0px;
+
+
+    border: 1px solid #6D6D6D;
+    transform: rotate(0.08deg);
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-menu {
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 1448px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+/* identical to box height, or 30px */
+
+    letter-spacing: 0.005em;
+
+    color: #6D6D6D;
+
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.menu-home {
+    cursor: pointer;
+}
+
+.menu-kemitraan {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.menu-tentang {
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+.menu-kami {
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+.menu-post {
+    margin-left: 40px;
+    cursor: pointer;
+}
+.menu-newsletter {
+    margin-left: 40px;
+    cursor: pointer;
 }
