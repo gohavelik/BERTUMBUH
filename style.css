@@ -45,28 +45,14 @@ time, mark, audio, video {
 
 .head-content {
     display: flex;
-
-    /* max-width: 1448px; */
-
-   
-
     
 }
 
-.top-side {
-    display: flex;
-}
 
-.logo {
-    display: flex;
-}
 
-.logo:hover {
-    cursor:pointer;
-}
-
-.logo-menu {
+.logo-menu, .logo, .top-side {
     display: flex;
+    user-select: none;
 }
 
 
@@ -101,9 +87,11 @@ time, mark, audio, video {
     display: flex;
     align-items: center;
 
+    user-select: none;
+
 }
 
-.menu-programs, .menu-arrow-button:hover {
+.menu-programs, .menu-arrow-button, .logo:hover {
     cursor: pointer;
 }
 
@@ -135,6 +123,12 @@ time, mark, audio, video {
     height: 24px;
     /* transform: rotate(180deg); */
     
+}
+
+.arrow-animation {
+    transform: rotate(180deg);
+        
+      
 }
 
 .menu-arrow-button {
@@ -281,6 +275,7 @@ color: #6D6D6D;
 
 .top-menu {
     display: flex;
+    
 
     margin-left: auto;
     margin-right: auto;
